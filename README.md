@@ -25,9 +25,16 @@ The default values for various paramters parsed to the experiment are given in o
 
 
 --gpu: Default: None (runs on CPU). Can also be set to the specific gpu id.
+
 --epochs: Number of rounds of training.
+
 --lr: Learning rate set to 0.01 by default.
+
 --seed: Random Seed. Default set to 1.
+
 --num_users:Number of users. Default is 100.
+
 --local_ep: Number of local training epochs in each user. Default is 10.
+
 --local_bs: Batch size of local updates in each user. Default is 10.
+
