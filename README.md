@@ -9,7 +9,8 @@ Pytorch
 Torchvision
 
 Data
-The data set will be open source after the paper is published, or it can be downloaded from the official website of VeRemi(https://veremi-dataset.github.io/)
+
+The data set will be open source after the paper is published, or it can be downloaded from the official website of VeRemi(https://veremi-dataset.github.io/), and generated in the makedata folder.
 
 Running the experiments
 
