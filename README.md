@@ -1,14 +1,15 @@
 # FL-TP
-FL-TP: Federated Learning-based Vehicle Trajectory Prediction Algorithm against Cyberattacks
 
-Requirments
+**FL-TP: Federated Learning-based Vehicle Trajectory Prediction Algorithm against Cyberattacks**
+
+**Requirments**
 Install all the packages from requirments.txt
 
 Python3
 Pytorch
 Torchvision
 
-Data
+**Data**
 
 The data set will be open source after careful revision, or it can be downloaded from the official website of VeRemi(https://veremi-dataset.github.io/), and generated in the makedata folder.
 
@@ -17,13 +18,15 @@ Running the experiments
 The baseline experiment trains the model in the Fed-Avg.
 
 To run the code:
+
+```shell
 python federaedLearning.py --model=LSTM --epochs=10 --user=4/10/20
+```
 
-
-Options
+**Options**
 The default values for various paramters parsed to the experiment are given in options.py. Details are given some of those parameters:
 
-
+```shell
 --gpu: Default: None (runs on CPU). Can also be set to the specific gpu id.
 
 --epochs: Number of rounds of training.
@@ -37,4 +40,6 @@ The default values for various paramters parsed to the experiment are given in o
 --local_ep: Number of local training epochs in each user. Default is 10.
 
 --local_bs: Batch size of local updates in each user. Default is 10.
+```
+
 
