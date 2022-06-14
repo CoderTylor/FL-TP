@@ -20,7 +20,7 @@ The baseline experiment trains the model in the Fed-Avg.
 To run the code:
 
 ```shell
-python federaedLearning.py --model=LSTM --epochs=10 --user=4/10/20
+python fltp_main.py --model=LSTM --epochs=10 --user=4/10/20
 ```
 
 **Options**
