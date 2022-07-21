@@ -11,9 +11,11 @@ Torchvision
 
 **Data**
 
-The data set will be open source after careful revision, or it can be downloaded from the official website of VeRemi(https://veremi-dataset.github.io/), and generated in the makedata folder.
+The data set can be downloaded from the official website of VeRemi(https://veremi-dataset.github.io/), and generated in the makedata folder.
 
-Running the experiments
+The data Sample could be seen in the url {https://github.com/CoderTylor/FL-TP/tree/main/FL-TP}
+
+**Running the experiments**
 
 The baseline experiment trains the model in the Fed-Avg.
 
@@ -42,4 +44,9 @@ The default values for various paramters parsed to the experiment are given in o
 --local_bs: Batch size of local updates in each user. Default is 10.
 ```
 
+
+
+**Experiment Result**
+
+- ![avatar](./Result_Pic/Result_Picture.png)
 
