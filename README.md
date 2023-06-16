@@ -44,7 +44,16 @@ The default values for various paramters parsed to the experiment are given in o
 --local_bs: Batch size of local updates in each user. Default is 10.
 ```
 
+## Please cite our paper if the source code can help you.
 
+```
+@article{zhe2023cyber,
+  title={Federated Learning-based Vehicle Trajectory Prediction against Cyberattacks},
+  author={Zhe Wang, Tingkai Yan},
+  journal={arXiv preprint arXiv:2306.08566},
+  year={2023}
+}
+```
 
 **Experiment Result**
 
